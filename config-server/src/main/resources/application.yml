@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+security:
+  user:
+    password: secret
+
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:microservices-config
+
+  profiles:
+      active: native
