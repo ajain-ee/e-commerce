@@ -1,10 +1,9 @@
 spring:
   application:
-    name: auth-server
+    name: api-gateway
   cloud:
     config:
       uri: http://localhost:8888
       fail-fast: true
       password: secret
       username: user
-

@@ -5,6 +5,11 @@ spring:
     password: password
     driver-class: com.mysql.jdbc.Driver
 
+  jpa:
+   hibernate:
+      ddl-auto: create
+   dialect: default
+
 server:
   port: 8081
   contextPath: /uaa
